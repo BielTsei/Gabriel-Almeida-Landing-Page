@@ -1,0 +1,52 @@
+:root {
+  --PrussianBlue: #1b3a57;
+  --Lavender: #d1d9e6;
+  --HookersGreen: #506c59;
+  --Seasalt: #f8f9fa;
+  --Black: #181616;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Vollkorn SC", serif;
+}
+
+.home {
+  background-image: url(assets/bg-gabriel-almeida.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  backdrop-filter: blur(10px);
+}
+
+header h1 {
+  font-family: "Vollkorn SC", serif;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+}
+
+.home p {
+  font-size: 13px;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 2px;
+  color: var(--Seasalt);
+  font-weight: 700;
+  max-width: 300px;
+  position: absolute;
+  right: 0;
+}
+
+header img {
+  width: 60px;
+}
